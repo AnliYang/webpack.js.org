@@ -7,7 +7,7 @@ contributors:
   - rouzbeh84
 ---
 
-Options affecting the output of the compilation. `output` options tell webpack how to write the compiled files to disk. Note, that while there can be multiple `entry` points, only one `output` configuration is specified.
+Options affecting the output of the compilation. `output` options tell webpack how to write the compiled files to disk. Note that while there can be multiple `entry` points, only one `output` configuration is specified.
 
 ## Usage
 
@@ -230,4 +230,3 @@ The filename of the SourceMaps for the JavaScript files. They are inside the `ou
 `[hash]` is replaced by the hash of the compilation.
 
 > Default: `"[file].map"`
-
